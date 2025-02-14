@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T13:32:57 IST" name="Default suite" finished-at="2024-12-20T13:32:57 IST" duration-ms="191">
+    <groups>
+      <group name="SanityTest">
+        <method signature="Create_Product01Test.Create_Product01Test()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" name="Create_Product01Test" class="Product.Create_Product01Test"/>
+      </group> <!-- SanityTest -->
+      <group name="SmokeTest">
+        <method signature="Create_Product01Test.Create_Product01Test()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" name="Create_Product01Test" class="Product.Create_Product01Test"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="Create_Product01Test.Create_Product01Test()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" name="Create_Product01Test" class="Product.Create_Product01Test"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-12-20T13:32:57 IST" name="Default test" finished-at="2024-12-20T13:32:57 IST" duration-ms="191">
+      <class name="Product.Create_Product01Test">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="BS" finished-at="2024-12-20T13:32:57 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="BT" finished-at="2024-12-20T13:32:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC(java.lang.String)[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="BC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734681777407" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-610723849\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-610723849\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="BM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734681777498" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="Create_Product01Test()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="Create_Product01Test" finished-at="2024-12-20T13:32:57 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-610723849\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method BC but has not been marked @Optional or defined
+in C:\Users\HP\AppData\Local\Temp\testng-eclipse-610723849\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Product01Test -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="AM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734681777524" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="AC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734681777529" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:57 IST" name="AT" finished-at="2024-12-20T13:32:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Product.Create_Product01Test@1f2586d6]" started-at="2024-12-20T13:32:58 IST" name="AS" finished-at="2024-12-20T13:32:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- Product.Create_Product01Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
