@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class InsertdatatoProperties {
-
+//Automation
 	public static void main(String[] args) throws Throwable {
 	                    Properties pro1 = new Properties();
 	                    pro1.setProperty("browser", "chrome");
