@@ -13,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class FetchDatafromProperties {
 
 	public static void main(String[] args) throws Throwable {
+		//Hi sourabh
 	               FileInputStream file = new FileInputStream("./src/test/resources/browser chrome.properties.txt");
 	                            Properties pro = new Properties();
 	                            pro.load(file);
